@@ -1,0 +1,21 @@
+wapper{
+    min-height: 120px;
+    border:1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+    }
+    
+    wapper::-webkit-scrollbar
+    {
+        width: 0;
+    }
+    
+    wapper.item
+    {
+        min-width: 110px;
+        height: 110px;
+        line-height: 110px;
+        text-align: center;
+        background-color: aliceblue;
+        margin-right: 2px;
+    }
